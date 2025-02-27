@@ -1,0 +1,10 @@
+Task 1. Image classification + OOP
+In this task, you need to use a publicly available simple MNIST dataset and build 3 classification
+models around it. It should be the following models:
+1) Random Forest;
+2) Feed-Forward Neural Network;
+3) Convolutional Neural Network;
+Each model should be a separate class that implements MnistClassifierInterface with 2
+abstract methods - train and predict. Finally, each of your three models should be hidden under
+another MnistClassifier class. MnistClassifer takes an algorithm as an input parameter.
+Possible values for the algorithm are: cnn, rf, and nn for the three models described above.
